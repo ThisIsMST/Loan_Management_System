@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LoanManagement.Entities\LoanManagement.Entities.csproj" />
+    <ProjectReference Include="..\loanManagement.Services\loanManagement.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Loans\ApplyLoanRequest\Contracts\Commands\" />
+    <Folder Include="Loans\RegisterLoanRequest\Contracts\Commands\" />
+  </ItemGroup>
+
+</Project>
